@@ -36,7 +36,6 @@ The app uses the **Fake or Real News Dataset**:
 3. Install dependencies using the requirements file:  
 
 ```bash
-## ⚙️ How to Run the App
 
 pip install -r requirements.txt
 4. Run the Streamlit app:
