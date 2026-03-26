@@ -1,5 +1,5 @@
-Python 3.x
-Streamlit
-Pandas
-Scikit-learn
-Joblib
+Python ==2 .1 . 1
+Streamlit== 1.24 . 0
+Pandas== 2.1.1
+Scikit-learn==1.3.0
+Joblib==1.3.2
