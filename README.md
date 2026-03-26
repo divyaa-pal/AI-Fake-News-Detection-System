@@ -36,6 +36,8 @@ The app uses the **Fake or Real News Dataset**:
 3. Install dependencies using the requirements file:  
 
 ```bash
+## ⚙️ How to Run the App
+
 pip install -r requirements.txt
 4. Run the Streamlit app:
 Bash
@@ -48,10 +50,10 @@ python -m streamlit run app.py
 • joblib
 These are listed in the requirements.txt file for easy installation.
 🖱 Usage
-1.Open the app in a browser.
-2.Enter news text in the provided field.
-3.Click Check News.
-4.View the prediction: Real or Fake.
+1️⃣ Open the app in a browser.
+2️⃣ Enter news text in the provided field.
+3️⃣ Click Check News.
+4️⃣ View the prediction: Real or Fake.
 👩‍💻 Developer
 Name: Divya Pal
 Course Project: Fundamentals of AI and ML
