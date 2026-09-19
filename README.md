@@ -2,7 +2,7 @@
 
 # 📰 Fake News Detection App
 
-### 🤖 AI-Powered News Classification using Machine Learning & NLP
+### 🤖 AI-Powered News Classification using NLP & Machine Learning
 
 **👩‍💻 Developer: Divya Pal**
 
@@ -17,105 +17,75 @@
 
 ## 📌 About
 
-An AI/ML application that analyzes news text and predicts whether a news article is **Real or Fake** using **NLP and Machine Learning**.
-
----
+A Machine Learning application that analyzes news text and predicts whether it is **Real or Fake** using **Natural Language Processing (NLP)**.
 
 ## ✨ Features
 
-- 📰 **Real/Fake News Prediction**
-- 🤖 **Machine Learning Classification**
-- 🔤 **NLP-based Text Processing**
-- 💻 **Interactive Streamlit Interface**
-- ⚡ **Instant Local Prediction**
-
----
+- 📰 Real/Fake News Prediction
+- 🔤 NLP Text Processing
+- 🤖 Machine Learning Classification
+- 💻 Streamlit Web Interface
+- ⚡ Instant Prediction
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose |
-|:---:|---|
-| 🐍 Python | Programming |
-| 🐼 Pandas | Data Processing |
-| 🤖 Scikit-learn | Machine Learning |
-| 🌐 Streamlit | User Interface |
-| 💾 Joblib | Model Handling |
-| 🧠 NLP | Text Processing |
-
----
+**Python • Pandas • Scikit-learn • Streamlit • Joblib • NLP**
 
 ## 📊 Dataset
 
 **File:** `fake_or_real_news.csv`
 
-**Columns:** `id` • `title` • `text` • `label`
+**Columns:** `id`, `title`, `text`, `label`
 
 📥 [Download Dataset](https://drive.google.com/file/d/1p7rLTHIz87dOZzRNpss4rVioVuTuh_OJ/view?usp=sharing)
 
----
-
 ## ⚙️ Run Locally
 
-### 1️⃣ Install Dependencies
+### Install Dependencies
 
-```bash
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
-2️⃣ Run the Application
+### Run the Application
 
-python -m streamlit run app.py
+    python -m streamlit run app.py
 
-3️⃣ Open in Browser
-
-http://localhost:8501
+Open `http://localhost:8501` in your browser.
 
 ---
 
-🖱️ Usage
+## 🧠 Workflow
 
-📝 Enter News Text
-        ↓
-🔍 Click "Check News"
-        ↓
-🤖 Model Analysis
-        ↓
-📊 Prediction
-    ↙       ↘
-Real News   Fake News
-    ✅          ❌
-
----
-
-🧠 ML Workflow
-
-📰 News Text
-      ↓
-🔤 Text Preprocessing
-      ↓
-📊 Feature Extraction
-      ↓
-🤖 ML Model
-      ↓
-📌 Classification
-      ↓
-Real News ✅ / Fake News ❌
+    📰 News Text
+         ↓
+    🔤 Text Preprocessing
+         ↓
+    📊 Feature Extraction
+         ↓
+    🤖 ML Model
+         ↓
+    📌 Real / Fake Prediction
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
-Fake-News-Detection/
-│
-├── 📄 app.py
-├── 📄 requirements.txt
-├── 📊 fake_or_real_news.csv
-├── 📁 model/
-└── 📖 README.md
+    Fake-News-Detection/
+    ├── app.py
+    ├── requirements.txt
+    ├── fake_or_real_news.csv
+    ├── model/
+    └── README.md
 
 ---
 
-<div align="center">⭐ AI • Machine Learning • NLP • Streamlit
+## 📚 Course
+
+**Fundamentals of Artificial Intelligence and Machine Learning**
+
+---
+
+<div align="center">
+
+### ⭐ AI • ML • NLP • Streamlit
 
 </div>
-```
-:::
