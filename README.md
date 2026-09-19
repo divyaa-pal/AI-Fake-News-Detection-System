@@ -76,11 +76,7 @@ Open `http://localhost:8501` in your browser.
     ├── model/
     └── README.md
 
----
 
-## 📚 Course
-
-**Fundamentals of Artificial Intelligence and Machine Learning**
 
 ---
 
