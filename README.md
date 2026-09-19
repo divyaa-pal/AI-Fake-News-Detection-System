@@ -1,67 +1,73 @@
-<div align="center">📰 Fake News Detection App
+<div align="center">
 
-🤖 AI-Powered News Classification using Machine Learning & NLP
+# 📰 Fake News Detection App
 
-👩‍💻 Developer: Divya Pal
+### 🤖 AI-Powered News Classification using Machine Learning & NLP
 
-""Python" (https://img.shields.io/badge/Python-3.x-blue?logo=python)" (https://www.python.org/)
-""Streamlit" (https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)" (https://streamlit.io/)
-""Scikit-learn" (https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn)" (https://scikit-learn.org/)
-""Pandas" (https://img.shields.io/badge/Pandas-Data%20Processing-purple?logo=pandas)" (https://pandas.pydata.org/)
+**👩‍💻 Developer: Divya Pal**
 
-</div>---
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-purple?logo=pandas)
 
-📌 About
-
-An AI/ML application that analyzes news text and predicts whether it is Real or Fake using NLP and Machine Learning.
+</div>
 
 ---
 
-✨ Features
+## 📌 About
 
-- 📰 Real/Fake news prediction
-- 🤖 Machine Learning classification
-- 🔤 NLP-based text processing
-- 💻 Interactive Streamlit interface
-- ⚡ Instant local prediction
+An AI/ML application that analyzes news text and predicts whether a news article is **Real or Fake** using **NLP and Machine Learning**.
 
 ---
 
-🛠️ Tech Stack
+## ✨ Features
 
-🐍 Python
-🐼 Pandas
-🤖 Scikit-learn
-🌐 Streamlit
-💾 Joblib
-🧠 NLP
-
----
-
-📊 Dataset
-
-File: "fake_or_real_news.csv"
-
-Columns:
-
-id | title | text | label
-
-📥 Dataset:
-"Download Dataset" (https://drive.google.com/file/d/1p7rLTHIz87dOZzRNpss4rVioVuTuh_OJ/view?usp=sharing)
+- 📰 **Real/Fake News Prediction**
+- 🤖 **Machine Learning Classification**
+- 🔤 **NLP-based Text Processing**
+- 💻 **Interactive Streamlit Interface**
+- ⚡ **Instant Local Prediction**
 
 ---
 
-⚙️ Run Locally
+## 🛠️ Tech Stack
 
-Install dependencies:
+| Technology | Purpose |
+|:---:|---|
+| 🐍 Python | Programming |
+| 🐼 Pandas | Data Processing |
+| 🤖 Scikit-learn | Machine Learning |
+| 🌐 Streamlit | User Interface |
+| 💾 Joblib | Model Handling |
+| 🧠 NLP | Text Processing |
 
+---
+
+## 📊 Dataset
+
+**File:** `fake_or_real_news.csv`
+
+**Columns:** `id` • `title` • `text` • `label`
+
+📥 [Download Dataset](https://drive.google.com/file/d/1p7rLTHIz87dOZzRNpss4rVioVuTuh_OJ/view?usp=sharing)
+
+---
+
+## ⚙️ Run Locally
+
+### 1️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
 
-Run the application:
+2️⃣ Run the Application
 
 python -m streamlit run app.py
 
-Open: "http://localhost:8501"
+3️⃣ Open in Browser
+
+http://localhost:8501
 
 ---
 
@@ -74,24 +80,25 @@ Open: "http://localhost:8501"
 🤖 Model Analysis
         ↓
 📊 Prediction
-   ↙          ↘
-Real News ✅  Fake News ❌
+    ↙       ↘
+Real News   Fake News
+    ✅          ❌
 
 ---
 
 🧠 ML Workflow
 
-News Text
-    ↓
-Text Preprocessing
-    ↓
-Feature Extraction
-    ↓
-ML Model
-    ↓
-Classification
-    ↓
-Real / Fake
+📰 News Text
+      ↓
+🔤 Text Preprocessing
+      ↓
+📊 Feature Extraction
+      ↓
+🤖 ML Model
+      ↓
+📌 Classification
+      ↓
+Real News ✅ / Fake News ❌
 
 ---
 
@@ -110,3 +117,5 @@ Fake-News-Detection/
 <div align="center">⭐ AI • Machine Learning • NLP • Streamlit
 
 </div>
+```
+:::
